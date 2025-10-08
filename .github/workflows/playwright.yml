@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: lts/*
 
-      - name: 📦 Install dependencies
+      - name: Install dependencies
         run: npm ci
 
       # No need to install browsers locally since tests run on LambdaTest
